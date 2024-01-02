@@ -1,8 +1,8 @@
-# -*- coding: utf-8 -*-
 from math import sqrt, floor
 import numpy as np
 from scipy.stats import chi, norm, ncx2
 from scipy.linalg import ldl
+
 
 __sepsilon = sqrt(np.finfo(float).eps)
 
